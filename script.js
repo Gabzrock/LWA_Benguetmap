@@ -5,7 +5,7 @@ const CSV_URL =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSosfBP3StMyRUzwI0tUZPsLjPVH1zePCz8gZbTMOzjOvnonbmNCoy5VT46UxO0qdqb-Wm9EqTpXp8y/pub?gid=536600083&single=true&output=csv";
 
 // Map initialization
-const map = L.map("map").setView([16.69878607850385, 120.79181562794032], 8); // Example initial center (Los Baños, PH)
+const map = L.map("map").setView([16.69878, 120.79181], 9); // Example initial center (Los Baños, PH)
 
 // --- 2. BASE MAP LAYER (Satellite View) ---
 
